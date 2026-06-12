@@ -1,1 +1,1 @@
-# Scrypto
+# Scripty
