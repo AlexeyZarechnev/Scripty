@@ -9,6 +9,8 @@ struct Command::Impl
 
 Command::Command(const std::string& /*name*/) {}
 
+Command::~Command() = default;
+
 int Command::run()
 {
   std::cout << "Running command..." << std::endl;
